@@ -1,6 +1,6 @@
 {
   "name": "@kev-cli/get-npm-info",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "git npm info",
   "author": "WxyLeon <1918409496@qq.com>",
   "homepage": "https://github.com/WxyLeon/kev-cli#readme",
