@@ -1,0 +1,14 @@
+{
+  "name": "kev-cli",
+  "version": "1.0.0",
+  "description": "kev-cli",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "WxyLeon",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

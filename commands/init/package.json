@@ -1,0 +1,44 @@
+{
+  "name": "@kev-cli/init",
+  "version": "1.0.0",
+  "description": "kev-cli init",
+  "author": "WxyLeon <1918409496@qq.com>",
+  "homepage": "https://github.com/WxyLeon/kev-cli#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WxyLeon/kev-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/WxyLeon/kev-cli/issues"
+  },
+  "dependencies": {
+    "@kev-cli/command": "file:../../models/command",
+    "@kev-cli/log": "file:../../utils/log",
+    "@kev-cli/package": "file:../../models/package",
+    "@kev-cli/request": "file:../../utils/request",
+    "@kev-cli/utils": "file:../../utils/utils",
+    "ejs": "^3.1.5",
+    "fs-extra": "^9.0.1",
+    "glob": "^7.1.6",
+    "inquirer": "^7.3.3",
+    "kebab-case": "^1.0.0",
+    "semver": "^7.3.4",
+    "spinner": "^0.3.4",
+    "user-home": "^2.0.0"
+  }
+}
