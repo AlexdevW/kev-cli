@@ -5,7 +5,7 @@
   "author": "WxyLeon",
   "homepage": "",
   "license": "ISC",
-  "main": "",
+  "main": "bin/index.js",
   "bin": {
     "kev-cli": "bin/index.js"
   },
